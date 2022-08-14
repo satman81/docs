@@ -250,7 +250,7 @@ The `--enabled-statistics` flag starts the gateway in a mode which reports very 
 Use the following command to ping our stats service to see what it has recorded (remember to change the `'until'` date):  
 
 ```
-curl -d '{"since":"2022-07-26T12:46:00.000000+00:00", "until":"2022-07-26T12:57:00.000000+00:00"}' -H "Content-Type: application/json" -X POST http://mainnet-stats.nymte.ch:8090/v1/all-statistics
+curl -d '{"since":"2022-07-26T12:46:00.000000+00:00", "until":"2022-07-26T12:57:00.000000+00:00"}' -H "Content-Type: application/json" -X POST https://mainnet-stats.nymte.ch:8090/v1/all-statistics
 ```
 
 <details>
